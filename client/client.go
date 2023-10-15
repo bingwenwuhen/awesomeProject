@@ -32,6 +32,7 @@ func main() {
 	}
 }
 func handler(conn net.Conn) {
+	//https://blog.csdn.net/liuyuede123/article/details/127132323
 	go func() {
 		for {
 			var buf = make([]byte, 1024)
